@@ -23,12 +23,13 @@ function WikiAPI() {
   return (
     <div className="wiki">
       <h3>wikiAPI Component</h3> 
+
       <form onSubmit={handleSubmit}>
         <input name='article' type='text' placeholder="search an article" onChange={handleChange}/>
         <input type='submit' value='Find Article' />
         <p>You entered {searchTerm}</p>
       </form>
-      {!wikiArticle ? <p>loading...</p> : <p>{wikiArticle}</p>}
+      {!wikiArticle ? <p></p> : <p>{wikiArticle}</p>}
     </div>
   )
 }

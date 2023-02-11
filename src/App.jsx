@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import BrainAPI from './components/BrainAPI'
 import WikiAPI from './components/WikiAPI'
+import Math from './components/Math'
 import './App.css'
 
 function App() {
@@ -10,8 +10,8 @@ function App() {
   return (
     <div className="App">
       <h1>Welcome to my api Tests</h1>
-      <BrainAPI />
       <WikiAPI />
+      <Math />
     </div>
   )
 }
