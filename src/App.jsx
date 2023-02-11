@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import BrainAPI from './components/brainAPI'
-import WikiAPI from './components/wikiAPI'
+import BrainAPI from './components/BrainAPI'
+import WikiAPI from './components/WikiAPI'
 import './App.css'
 
 function App() {
