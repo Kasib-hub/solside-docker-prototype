@@ -1,4 +1,5 @@
 # Logs
+proto_ngin.cer
 logs
 *.log
 npm-debug.log*
